@@ -5,18 +5,25 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.wholepage{
+    padding-left: 48px;
+    padding-right: 48px;
+}
 .navbar{
     display:flex;
     align-items:center;
     flex-direction: row;
-    color:black;
+    color:white;
+    background-color:black; 
     margin-bottom: 60px;
     padding-top: 36px;
+    padding-bottom: 36px;
 }
 
 .my_name{
     flex: none;
     font-weight: 700;
+    padding-left: 40px;
     margin-right: auto;
     position: relative;
     z-index: 9;
@@ -28,20 +35,29 @@ body {
     justify-content: flex-end;
     position: relative;
     top: auto;
+    text-decoration: none;
+    color:white;
+    z-index: 8;
     
-}
-
-.my_name{
-    display:flex;
 }
 
 .header_button{
     display:flex;
     justify-content:flex-start;
-    margin-left: 75px;
+    margin-left: 50px;
+    padding-right: 40px;
+    text-decoration: none;
+    color:white;
+    z-index: 8;
 }
 
 .space_top{
     padding-left: 48px;
     padding-right: 48px;
+    background-color: blue;
+}
+
+.button{
+    color:white;
+    text-decoration: none;
 }
